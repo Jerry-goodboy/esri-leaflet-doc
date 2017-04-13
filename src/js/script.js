@@ -1,16 +1,16 @@
 var map;
-var bgmap = L.map('background-map', {
-    center: [37.739, -117.986],
-    zoom: 10,
-    scrollWheelZoom: false,
-    touchZoom: true,
-    zoomControl: false,
-    tap: false,
-    attributionControl: false,
-    layers: [L.esri.basemapLayer('Topographic')]
-});
-
-bgmap.setView([68.41, -179], 10, {animate: true, pan: {duration: 100000}})
+// var bgmap = L.map('background-map', {
+//     center: [37.739, -117.986],
+//     zoom: 10,
+//     scrollWheelZoom: false,
+//     touchZoom: true,
+//     zoomControl: false,
+//     tap: false,
+//     attributionControl: false,
+//     layers: [L.esri.basemapLayer('Topographic')]
+// });
+//
+// bgmap.setView([68.41, -179], 10, {animate: true, pan: {duration: 100000}})
 
 if (map) {
   map.scrollWheelZoom.disable();
